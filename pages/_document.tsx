@@ -6,7 +6,15 @@ class Doc extends Document {
       <Html>
         <Head>
           <link
-            href="https://fonts.googleapis.com/css?family=Megrim"
+            href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Roboto"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Nunito"
             rel="stylesheet"
           />
         </Head>

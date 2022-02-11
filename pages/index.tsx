@@ -4,23 +4,21 @@ import { Navbar } from '../components/NavBar'
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen animate-grad_xy flex-col items-center bg-gradient-to-tr from-fuchsia-900 to-indigo-800">
       <Head>
         <title>LambdaCode | Home</title>
       </Head>
-      <div>
-        <Navbar />
-        <div>
-          <div className="flex items-center justify-center gap-40">
-            <div>
-              <h1 className="bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text font-megrim text-6xl font-bold text-transparent">
-                LambdaCode
-              </h1>
-              <p className="text-l text-slate-300">The Language For Tomorrow</p>
-            </div>
-            <div>
-              <Image src="/img/img1.png" width={600} height={600} />
-            </div>
+      <Navbar />
+      {/* <div className="flex min-h-screen items-center justify-center"> */}
+      <div className="flex min-h-screen items-center justify-center">
+        <div className="text-center">
+          <div>
+            <h1 className="animate-pulse animate-grad_x bg-gradient-to-r from-pink-400 to-violet-500 bg-clip-text font-nunito text-8xl font-bold text-transparent drop-shadow-2xl md:text-3xl lg:text-8xl">
+              LambdaCode
+            </h1>
+            <p className="animate-pulse font-ubuntu text-xl">
+              A Language Of Tomorrow
+            </p>
           </div>
         </div>
       </div>
